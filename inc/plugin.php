@@ -7,7 +7,8 @@ class Plugin {
     $this->classes = array();
     $this->actions = array(
       'pl_server_save_page',
-      'save_post'
+      'save_post',
+      'upgrader_process_complete'
     );
     $this->load_files();
     $this->add_actions();
