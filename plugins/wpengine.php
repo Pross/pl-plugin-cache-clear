@@ -2,7 +2,7 @@
 namespace PL_CacheClear;
 class Wpengine {
 
-  function run() {
+  static function run() {
     error_log( 'pl5 - run() at ' . __CLASS__  );
     if( ! class_exists( 'WpeCommon' ) ) {
       return false;
